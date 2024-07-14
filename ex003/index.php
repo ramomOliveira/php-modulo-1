@@ -19,6 +19,26 @@
 
     // $num = 3e2; // 3 x 10(2) tres vezes 10 elevado a 2
     // echo "A variável num é do tipo: $num <br>";
+
+    // $vet = [1, 2, 3, 4, 5];
+    // var_dump($vet);
+
+    class Pessoa {
+      private string $nome;
+    }
+
+    $p = new Pessoa();
+    var_dump($p);
+
+    // aspas simples não interpreta variáveis
+    // aspas duplas interpreta variáveis
+    // constante é interpolada "Moro no bairro de " . BAIRRO (obs: e usado com ponto)
+
+    $nome = "Maria";
+    $sobreNome = "Silva";
+    $apelido = "Má";
+    echo "$nome \"$sobreNome\" $apelido <br>";
+    // o contra barra escapa o caractere especial
   ?>
 </body>
 
